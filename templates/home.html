@@ -1,0 +1,40 @@
+<html>
+    <body background="static/bgimg.jpg"  >
+
+        <center>
+
+        <h1 style="color: rgb(205, 204, 230);"> Australia Weather Prediction</h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> MinTemp1 :  <input align = "center", type="text", name='MinTemp', placeholder="Enter MinTemp"> <br><br>
+            MaxTemp1 :  <input align = "center", type="text", name='MaxTemp', placeholder="Enter MaxTemp"> <br><br>
+            Rainfall1 :  <input align = "center", type="text", name='Rainfall', placeholder="Enter Rainfall"> <br><br>
+            Evaporation1 : <input align = "center", type="text", name='Evaporation', placeholder="Enter Evaporation"> <br><br>
+            Sunshine1 : <input align = "center", type="text", name='Sunshine', placeholder="Enter Sunshine"> <br><br>
+            WindGustSpeed1 : <input type="text", name='WindGustSpeed', placeholder="Enter WindGustSpeed"> <br><br>
+            WindDir9am1 : <input type="text", name='WindDir9am', placeholder="Enter WindDir9am"> <br><br>
+            WindDir3pm1 : <input type="text", name='WindDir3pm', placeholder="Enter WindDir3pm"> <br><br>
+            WindSpeed9am1 : <input type="text", name='WindSpeed9am', placeholder="Enter WindSpeed9am"> <br><br>
+            WindSpeed3pm1 : <input type="text", name='WindSpeed3pm', placeholder="Enter WindSpeed3pm"> <br><br>
+            Humidity9am1 : <input type="text", name='Humidity9am', placeholder="Enter Humidity9am"> <br><br>
+            Humidity3pm1 : <input type="text", name='Humidity3pm', placeholder="Enter Humidity3pm"> <br><br>
+            Pressure9am1 : <input type="text", name='Pressure9am', placeholder="Enter Pressure9am"> <br><br>
+            Pressure3pm1 : <input type="text", name='Pressure3pm', placeholder="Enter Pressure3pm"> <br><br>
+            Cloud9am1 : <input type="text", name='Cloud9am', placeholder="Enter Cloud9am"> <br><br>
+            Cloud3pm1 : <input type="text", name='Cloud3pm', placeholder="Enter Cloud3pm"> <br><br>
+            Temp9am1 : <input type="text", name='Temp9am', placeholder="Enter Temp9am"> <br><br>
+            Temp3pm1 : <input type="text", name='Temp3pm', placeholder="Enter Temp3pm"> <br><br>
+            RainToday1 : <input type="text", name='RainToday', placeholder="Enter RainToday"> <br><br>
+            Year1 : <input type="text", name='Year', placeholder="Enter Year"> <br><br>
+            Month1 : <input type="text", name='Month', placeholder="Enter Month"> <br><br>
+            Day1 : <input type="text", name='Day', placeholder="Enter Day"> <br><br>
+            Location1 : <input type="text", name='Location', placeholder="Enter Location"> <br><br>
+            WindGustDir1 : <input type="text", name='WindGustDir', placeholder="Enter WindGustDir"> <br><br></b>
+            <input type="submit" , value='Predict' >
+        </form>
+
+        
+    </center>
+
+    </body>
+</html>
